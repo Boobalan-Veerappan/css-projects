@@ -1,0 +1,42 @@
+.container{
+
+display: flex;
+justify-content: center;
+top: 50%;
+left: 50%;
+position: absolute;
+
+}
+.card{
+    position: relative;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.font, .back{
+  
+    width: 200px;
+    height: 200px;
+   
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+    backface-visibility: hidden;
+}
+.font{
+    background-color: #fff;
+    color: tomato;
+    transform: rotateY(-180deg);
+    
+}
+.back{
+    background-color: tomato;
+    color: #fff;
+}
+.card:hover {
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transition: all 1s;
+}

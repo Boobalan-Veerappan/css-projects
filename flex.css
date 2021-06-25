@@ -1,0 +1,36 @@
+.container{
+display: flex;
+}
+.flex-1,.flex-2,.flex-3{
+    border: 2px solid;
+}
+.set{
+    flex: 1;
+}
+.set-2{
+    flex:2;
+}
+.align-item-start{
+    align-items: flex-start;
+}
+.align-item-end{
+    align-items: flex-end;
+}
+.align-item-center{
+    align-items: center;
+}
+.A{
+    background-color: khaki;
+}
+.B{
+    background-color: skyblue;
+}
+.C{
+    background-color: mediumaquamarine;
+}
+.flex-bassic{
+    flex-basis: 20%;
+}
+.justify-content-center{
+    justify-content: flex-end;
+}

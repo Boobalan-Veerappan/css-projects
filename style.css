@@ -1,0 +1,39 @@
+.center{
+    justify-content: center;
+    display: flex;
+   
+
+}
+.box-shadow
+{
+    width: 1000px;
+    height: 500px;
+    background: sandybrown;
+    color: #000;
+    font-size: large;
+    text-align: center;
+    box-shadow: 30px 30px 10px 40px red;
+}
+.box::after{
+    content: '';
+    top: 95%;
+    position: absolute;
+    left: 5px;
+    z-index: -1;
+    width: 100%;
+    transform: rotate(-1deg);
+    height: 20px;
+    background: seagreen;
+}
+.box::before{
+    content: '';
+    top: 95%;
+    right: 5px;
+    transform: rotate(2deg);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 20px;
+    /* z-index: 1; */
+    background: violet;
+    }

@@ -1,0 +1,24 @@
+.no::before{
+content: counter(no) " ";
+}
+.no{
+    counter-increment: no;
+}
+.counter{
+counter-reset: no;
+}
+.input-box{
+    counter-reset: input;
+}
+/* .input{
+counter-increment: input;
+} */
+input:checked{
+    counter-increment: input;
+}
+/* .input::before{
+    content: " " counter(input) " ";
+} */
+.invoid::before{
+    content: " " counter(input) " ";
+}

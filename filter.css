@@ -1,0 +1,41 @@
+.image1{
+    width: 1000px;
+    overflow: hidden;
+    direction: ltr;
+}
+
+.image2{
+width: 1000px;
+overflow: hidden;
+direction: rtl;
+}
+.bulr{
+    filter: blur(10px);
+}
+.bright_high{
+    filter: brightness(200%);
+}
+.bright_low{
+    filter: brightness(30%);
+}
+.contrast{
+   filter: contrast(600%)
+}
+.grayscale{
+    filter: grayscale(154%);
+}
+.invert{
+   filter: invert(80%);
+}
+.hue-rotate{
+    filter: hue-rotate(100deg);
+}
+.opacity{
+    filter: opacity(50%);
+}
+.saturate{
+    filter: saturate(80000%);
+}
+.sepia{
+    filter: sepia(735%);
+}

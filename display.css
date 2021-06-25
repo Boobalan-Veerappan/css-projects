@@ -1,0 +1,43 @@
+.block{
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+.block_after{
+    display: block;
+    background-color: firebrick;
+}
+.block_before{
+    background-color: firebrick;
+}
+.common-color{
+    color: gold;
+}
+.inline{
+    background-color: gray;
+    padding: 5px;
+}
+.inline_before{
+background-color: indianred;
+}
+.inline_after{
+    display: inline;
+    background-color: indianred;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .inline-block{
+        background-color: turquoise;
+        padding: 5px;
+    }
+    .inline-block_before{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+    }
+    .inline-block_after{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        display: inline-block;
+    }

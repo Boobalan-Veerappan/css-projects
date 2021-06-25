@@ -1,0 +1,31 @@
+.seperate{
+    column-count: 4;
+}
+.seperate-weight{
+    columns:  300px ;
+    /* when compare using both 'columns':width count; 
+    
+    always 1st priority goes to the 'count'
+    */
+}
+.seperate-rules{
+    column-count: 3;
+    column-rule: 1px solid green;
+}
+.seperate-gaps{
+    column-count: 3;
+    column-gap: 3rem;
+    column-rule: 1px solid red;
+}
+.seperate-span{
+    column-count: 3;
+}
+.change{
+column-span: all;
+}
+.seperate-fill-auto{
+    column-fill: auto;
+}
+.combin{
+    column-count: 3;
+}

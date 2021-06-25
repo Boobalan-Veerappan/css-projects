@@ -1,0 +1,74 @@
+.container-center{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   height: 100px;
+}
+.container-around{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-around;
+   height: 100px;
+}
+.container-between{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+   height: 100px;
+}
+
+.container-flex-end{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   height: 100px;
+}
+.container-flex-start{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   height: 100px;
+}
+.container-stretch{
+    width: auto;
+    outline: 1px solid;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: stretch;
+   height: 100px;
+}
+.A{
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+}
+.B{
+    background-color: red;
+    padding: 5px;
+    color: #fff;
+}
+.C{
+    background-color: yellow;
+    padding: 5px;
+    color: #fff;
+}
+.D{
+    background-color: orange;
+    padding: 5px;
+    color: #fff;
+}
+.E{
+    background-color: brown;
+    padding: 5px;
+    color: #fff;
+}

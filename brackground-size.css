@@ -1,0 +1,8 @@
+.background-size{
+    width: 400px;
+    height: 400px;
+    background-color: saddlebrown;
+    background-size: 100px ,100px;
+    color: #fff;
+    background: url(../../Pictures/istockphoto-1150050227-612x612.jpg);
+}

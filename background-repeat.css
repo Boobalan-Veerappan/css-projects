@@ -1,0 +1,28 @@
+.repeat{
+    background: url(../../Pictures/pexels-photo-145962.jpeg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 400px;
+    border: 4px solid;
+}
+.no-repeat{
+    background: url(../../Pictures/pexels-photo-145962.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    border: 4px solid;
+}
+.repeat-x{
+    background: url(../../Pictures/pexels-photo-145962.jpeg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 400px;
+    border: 4px solid;
+}
+.repeat-y{
+    background: url(../../Pictures/pexels-photo-145962.jpeg);
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 400px;
+    border: 4px solid;
+}
